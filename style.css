@@ -1,1 +1,58 @@
+/* Reset básico e fontes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilização dos Títulos e Parágrafos */
+h1 {
+    color: #1a365d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 700px;
+    margin: 0 auto 15px auto;
+    font-size: 1.1rem;
+}
+
+/* Cartão de Apresentação (Modelo de Caixa - Box Model) */
+.card {
+    background-color: #ffffff;
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 25px;
+    border: 2px solid #3182ce;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #3182ce;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    color: #2b6cb0;
+    margin-bottom: 5px;
+}
+
+.card-sub {
+    font-weight: bold;
+    color: #718096;
+    margin-bottom: 15px;
+}
