@@ -1,1 +1,28 @@
-# atividade-html-css.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Página CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Minha Primeira Página Estilizada com CSS</h1>
+
+    <p>Olá! Meu nome é israel da silva .</p>
+
+    <p>Estou aprendendo HTML e CSS para criar páginas web bonitas e organizadas.</p>
+
+    <img src="imagem.jpg" alt="Imagem de um computador utilizado para programação">
+
+    <div class="cartao">
+        <h2>Cartão de Apresentação</h2>
+        <p><strong>Nome:</strong>israel da silva</p>
+        <p><strong>Curso:</strong> Técnico em Informática</p>
+        <p><strong>Turma:</strong> TI1</p>
+        <p><strong>Habilidade:</strong> Desenvolvimento Web</p>
+    </div>
+
+</body>
+</html>
